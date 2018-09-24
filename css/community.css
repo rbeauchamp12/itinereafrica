@@ -1,0 +1,339 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.small{
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#tab-title{
+    color: #424242;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.intro-header {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #f8f8f8;
+    background: radial-gradient(#66BB6A, #2E7D32);
+    text-shadow: 0 0 10px black;
+    background-size: cover;
+}
+
+
+
+.intro-message {
+    position: relative;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 4em;
+}
+
+.intro-divider {
+    width: 100%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+/* comment section begins */
+  /* comment box */
+textarea{
+  width:800px;
+  height:75px;
+  resize:none;
+  background-color:#E8F5E9;
+   border: 2px solid #37474F;
+  text-align:justify;
+  margin: 0 auto;
+  border-radius: 6px;
+  color: #212121;
+}
+
+/* submit button */
+#submit-comment{
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #2E7D32;
+  color: white !important;
+
+}
+
+/* user comments */
+.comment-box{
+  padding-top: 10px;
+  padding-left:5%;
+  padding-bottom: 20px;
+  margin: 5px;
+  background: #66BB6A;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #263238 !important;
+  position: relative;
+}
+
+.comment-box p{
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height:14px;
+  font-weight: 100;
+  color: #E8F5E9; 
+}
+
+.edit-form{
+  position: absolute;
+  top: 5px;
+  right: -4px;
+}
+
+.edit-form button{
+  background-color: black;
+  color: white;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+  opacity: 0.7;
+}
+
+.edit-form button:hover {
+  opacity: 2;
+}
+
+
+
+
+
+
+
+/*comment section ends */
+
+/* mobile devices begins */
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    .intro-divider {
+        width: 100%;
+    }
+  
+  /* comment section begins */
+  /* comment box */
+  textarea{
+   	width:  100%;
+    height: auto;
+    border: 2px solid #37474F;
+    background-color: #E8F5E9;
+   	display: inline-block;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left:-25px;
+    color: #212121;  
+  }
+
+  /* submit button */
+  #submit-comment{
+    border-radius: 20px;
+    padding:auto;
+    margin:auto;
+    width:100%;
+  }
+
+/* user comments */
+  .comment-box{
+   padding-top: 10px;
+  padding-left: 5%;
+  padding-bottom: 20px;
+  margin: 5px;
+  background: #66BB6A;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #263238 !important;
+}
+.comment-box p{
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height:16px;
+  font-weight: 100;
+  color: #E8F5E9; 
+}
+
+.edit-form{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+}
+
+.edit-form button{
+ background-color: #263238;
+  color: white;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  width: 50px;
+  opacity: 0.7;
+}
+
+
+.edit-form button:hover{
+ 
+  opacity: 2;
+}
+
+/* comment section ends */
+  
+}
+
+/* mobile devices ends  */
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    
+}
+
+
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    width: 100%;
+    border-top: 1px solid #424242;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/googlebanner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+        font-size: 3em;
+    }
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+   
+    #form-box{
+        padding-left: 6em;
+    }
+    #tab-title{
+      padding-left: 15%;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+    }
+ 	#sub-title{
+      font-size:14px;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+  	}
+  
+  	#rob{
+      padding-left: 10%;
+      font-size:14px;
+  }
+ 
+    
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
